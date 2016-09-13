@@ -1,0 +1,56 @@
+.page-title {
+  overflow:auto;
+}
+
+.page-title h3 {
+  float:left;
+  font-weight:700;
+}
+
+.page-title h6 {
+  float:right;
+  font-weight:700;
+  line-height:40px;
+}
+
+.page-title h6 span {
+  padding-left:16px;
+}
+
+.dashboard-table {
+  width:100%;
+}
+.dashboard-table h6 {
+  text-align:left
+}
+
+.dashboard-table td {
+  line-height:48px;
+}
+
+.dashboard-table .date {
+  padding-top:0px;
+  padding-bottom:0px;
+}
+
+.dashboard-table .date .box {
+  background-color:darkslategrey;
+  color:white;
+  text-align:center;
+  text-transform:uppercase;
+  font-weight:700;
+  line-height:24px;
+}
+
+.dashboard-table .day {
+  font-size:34px;
+}
+
+.dashboard-table tfoot td {
+  padding-bottom:12px;
+}
+
+.dashboard .mdl-tabs__tab {
+  width:33%;
+  background-color:#eee
+}
