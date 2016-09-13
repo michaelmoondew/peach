@@ -60,7 +60,7 @@
     <div class="mdl-tabs mdl-js-tabs mdl-js-ripple-effect">
       <div class="mdl-tabs__tab-bar">
         <a href="#recent-panel" class="mdl-tabs__tab is-active">Recent Sessions</a>
-        <a href="#all-panel" class="mdl-tabs__tab">All Sessions</a>
+        <a href="#upcoming-panel" class="mdl-tabs__tab">Upcoming Sessions</a>
         <a href="#pending-panel" class="mdl-tabs__tab">Pending Actions</a>
       </div>
 
@@ -68,13 +68,13 @@
         <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp dashboard-table">
           <thead>
           <tr>
-            <td>
+            <td class="table-title">
               <h6>RECENT SESSIONS</h6>
             </td>
             <td></td>
             <td></td>
             <td></td>
-            <td>
+            <td class="tools">
               <button class="mdl-button mdl-js-button mdl-button--icon">
                 <i class="material-icons">filter_list</i>
               </button>
@@ -142,11 +142,184 @@
           </tbody>
         </table>
       </div>
-      <div class="mdl-tabs__panel" id="all-panel">
-        <p>Sessions table 2</p>
+      <div class="mdl-tabs__panel" id="upcoming-panel">
+        <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp dashboard-table">
+          <thead>
+          <tr>
+            <td class="table-title">
+              <h6>UPCOMING SESSIONS</h6>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="tools">
+              <button class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">filter_list</i>
+              </button>
+              <button id="dashboard-table-menu"
+                      class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">more_vert</i>
+              </button>
+
+              <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+                  for="dashboard-table-menu">
+                <li class="mdl-menu__item">Action 1</li>
+                <li class="mdl-menu__item">Action 2</li>
+                <li class="mdl-menu__item">Action 3</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th class="mdl-data-table__cell--non-numeric">Date/Time</th>
+            <th class="mdl-data-table__cell--non-numeric">Subject</th>
+            <th class="mdl-data-table__cell--non-numeric">Tutor</th>
+            <th class="mdl-data-table__cell--non-numeric">Student</th>
+            <th class="mdl-data-table__cell--non-numeric">Actions</th>
+          </tr>
+          </thead>
+          <tfoot>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <button class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">keyboard_arrow_left</i>
+              </button>
+              <button class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">keyboard_arrow_right</i>
+              </button>
+            </td>
+          </tr>
+          </tfoot>
+          <tbody>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric date">
+              <div class="box">
+                <div class="month">Nov</div>
+                <div class="day">5</div>
+                <div class="time">1:00PM</div>
+              </div>
+            </td>
+            <td class="mdl-data-table__cell--non-numeric">Spanish</td>
+            <td class="mdl-data-table__cell--non-numeric">Tim Johnsen</td>
+            <td class="mdl-data-table__cell--non-numeric">You</td>
+            <td class="mdl-data-table__cell--non-numeric">
+              <button class="mdl-button mdl-js-button mdl-button--primary">
+                Rate Tutor
+              </button>
+              <button class="mdl-button mdl-js-button mdl-button--accent">
+                Session Docs
+              </button>
+              <button class="mdl-button mdl-js-button">
+                Report Issue(s)
+              </button>
+            </td>
+          </tr>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric date">
+              <div class="box">
+                <div class="month">Nov</div>
+                <div class="day">9</div>
+                <div class="time">8:50AM</div>
+              </div>
+            </td>
+            <td class="mdl-data-table__cell--non-numeric">Math</td>
+            <td class="mdl-data-table__cell--non-numeric">Barry Simmons</td>
+            <td class="mdl-data-table__cell--non-numeric">You</td>
+            <td class="mdl-data-table__cell--non-numeric">
+              <button class="mdl-button mdl-js-button mdl-button--primary">
+                Rate Tutor
+              </button>
+              <button class="mdl-button mdl-js-button mdl-button--accent">
+                Session Docs
+              </button>
+              <button class="mdl-button mdl-js-button">
+                Report Issue(s)
+              </button>
+            </td>
+          </tr>
+          </tbody>
+        </table>
       </div>
       <div class="mdl-tabs__panel" id="pending-panel">
-        <p>Pending actions table</p>
+        <table class="mdl-data-table mdl-js-data-table mdl-shadow--2dp dashboard-table">
+          <thead>
+          <tr>
+            <td class="table-title">
+              <h6>PENDING ACTIONS</h6>
+            </td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td class="tools">
+              <button class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">filter_list</i>
+              </button>
+              <button id="dashboard-table-menu"
+                      class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">more_vert</i>
+              </button>
+
+              <ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+                  for="dashboard-table-menu">
+                <li class="mdl-menu__item">Action 1</li>
+                <li class="mdl-menu__item">Action 2</li>
+                <li class="mdl-menu__item">Action 3</li>
+              </ul>
+            </td>
+          </tr>
+          <tr>
+            <th class="mdl-data-table__cell--non-numeric">Date/Time</th>
+            <th class="mdl-data-table__cell--non-numeric">Subject</th>
+            <th class="mdl-data-table__cell--non-numeric">Tutor</th>
+            <th class="mdl-data-table__cell--non-numeric">Student</th>
+            <th class="mdl-data-table__cell--non-numeric">Actions</th>
+          </tr>
+          </thead>
+          <tfoot>
+          <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>
+              <button class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">keyboard_arrow_left</i>
+              </button>
+              <button class="mdl-button mdl-js-button mdl-button--icon">
+                <i class="material-icons">keyboard_arrow_right</i>
+              </button>
+            </td>
+          </tr>
+          </tfoot>
+          <tbody>
+          <tr>
+            <td class="mdl-data-table__cell--non-numeric date">
+              <div class="box">
+                <div class="month">Oct</div>
+                <div class="day">31</div>
+                <div class="time">12:00AM</div>
+              </div>
+            </td>
+            <td class="mdl-data-table__cell--non-numeric">Programming</td>
+            <td class="mdl-data-table__cell--non-numeric">Michael Marais</td>
+            <td class="mdl-data-table__cell--non-numeric">You</td>
+            <td class="mdl-data-table__cell--non-numeric">
+              <button class="mdl-button mdl-js-button mdl-button--primary">
+                Rate Tutor
+              </button>
+              <button class="mdl-button mdl-js-button mdl-button--accent">
+                Session Docs
+              </button>
+              <button class="mdl-button mdl-js-button">
+                Report Issue(s)
+              </button>
+            </td>
+          </tr>
+          </tbody>
+        </table>
       </div>
     </div>
   </div>

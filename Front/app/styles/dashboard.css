@@ -1,3 +1,8 @@
+body {
+  width:980px;
+  margin:auto;
+}
+
 .page-title {
   overflow:auto;
 }
@@ -20,12 +25,23 @@
 .dashboard-table {
   width:100%;
 }
+
+td.table-title {
+  height:77px;
+}
+
 .dashboard-table h6 {
-  text-align:left
+  text-align:left;
+  font-weight:700;
+  position:absolute;
 }
 
 .dashboard-table td {
   line-height:48px;
+}
+
+.dashboard-table .tools {
+  vertical-align:middle;
 }
 
 .dashboard-table .date {
