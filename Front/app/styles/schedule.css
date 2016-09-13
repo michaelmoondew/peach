@@ -1,0 +1,157 @@
+.scheduler h6{
+	font-weight: 700;
+}
+
+.circle{
+	width: 13px;
+	height: 13px;
+	border-radius: 100px;
+	display: inline-block;
+}
+
+.circle--available{
+	background-color: #53DD6C;
+}
+
+.circle--unavailable{
+	background-color: red;
+}
+
+.circle--outline{
+	border: 2px solid #53DD6C;
+	transition: all .3s ease;
+	background-color: #FFFFFF;
+	width: 30px;
+	height: 30px;
+}
+
+.timePickerOption:hover .circle--outline{
+	background-color: #53DD6C;
+}
+
+.datePicker{
+	border: 4px solid #F1F1F1;
+	padding: 0px;
+}
+
+.datePickerOption{
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #FFFFFF;
+	transition: all .3s ease;
+}
+
+.datePickerOption .circle{
+	width: 30px;
+	height: 30px;
+}
+
+.datePicker--day{
+	display: block;
+	font-weight: 700;
+	font-size: 14px;
+}
+
+.datePicker--number{
+	display: block;
+	font-weight: 700;
+	font-size: 36px;
+	margin-top: 10px;
+}
+
+.timePicker--time{
+	display: block;
+	font-weight: 700;
+	font-size: 36px;
+	margin-top: 10px;
+}
+
+.timePicker--ampm{
+	display: block;
+	font-weight: 700;
+	font-size: 14px;
+	margin-top: 10px;
+}
+
+.datePicker .mdl-cell{
+	width: 14.2%;
+	margin: 0px;
+}
+
+.datePickerOption--active{
+	background-color: #F1F1F1;
+}
+
+.datePickerOption:hover{
+	background-color: #F1F1F1; 
+	cursor: pointer;
+}
+
+.timePicker{
+	display: none; 
+	opacity: 0; 
+	margin-top: 20px;
+	border: 4px solid #F1F1F1;
+	padding: 0px;
+	transition: all .5s ease;
+}
+
+.timePickerOption{
+	text-align: center;
+	padding-top: 20px;
+	width: 20%;
+	padding-bottom: 20px;
+	background-color: #FFFFFF;
+	transition: all .3s ease;
+	margin: 0;
+}
+
+.timeActive{
+	opacity: 1;
+}
+
+.timePickerOption:hover{
+	background-color: #F1F1F1; 
+	cursor: pointer;
+}
+
+.timePickerOption--active{
+	background-color: #F1F1F1;
+}
+
+.timePickerOption--active .circle--outline{
+	background-color: #53DD6C;
+}
+
+
+.scheduleNowButtonContainer{
+	opacity: 0;
+	transition: all .3s ease;
+}
+
+.scheduleNowButtonContainer--active{
+	opacity: 1; 
+}
+
+.datePicker--calendarButton{
+	position: relative;
+	left: 6px;
+	background-color: #63A088;
+}
+
+.datePicker--calendarButton:hover{
+	background-color: #006964;
+}
+
+.datePicker--calendarButton i{
+	color: #F1F1F1;
+	font-size: 36px;
+	margin-top: 25px;
+}
+
+.scheduleNowButtonContainer button{
+	width: 100%;
+	margin-top: 20px;
+	height: 60px;
+}
