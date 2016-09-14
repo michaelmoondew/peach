@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>PeachCore</title>
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,700,900" type="text/css">
+	<link rel="stylesheet" href="css/material.min.css">
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="js/material.min.js"></script>
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+<!-- Uses a header that scrolls with the text, rather than staying locked at the top -->
+<div class="mdl-layout mdl-js-layout">
+  <header class="mdl-layout__header--scroll">
+    <div class="mdl-layout__header-row">
+      <!-- Title -->
+      <div class="navLogoContainer">
+		<img src="img/Peach_Logo.png" alt="PeachCore Logo" class="navLogo">
+      </div>
+      <!-- Add spacer, to align navigation to the right -->
+      <div class="mdl-layout-spacer"></div>
+      <!-- Navigation -->
+      <nav class="mdl-navigation">
+        <a class="mdl-navigation__link" href="">How It Works</a>
+        <a class="mdl-navigation__link" href="">Tour</a>
+        <a class="mdl-navigation__link" href="">Pricing</a>
+        <a class="mdl-navigation__link" href="">Contact</a>
+        <a class="mdl-navigation__link" href="#">
+        	<button class="btn--alt">Login</button>
+        </a>
+      </nav>
+      <!-- Right aligned menu below button -->
+	   <button id="mobileNav"
+		        class="mdl-button mdl-js-button mdl-button--icon">
+		  <i class="material-icons">menu</i>
+		</button>
+
+		<ul class="mdl-menu mdl-menu--bottom-right mdl-js-menu mdl-js-ripple-effect"
+		    for="mobileNav">
+		  <li class="mdl-menu__item">How It Works</li>
+		  <li class="mdl-menu__item">Tour</li>
+		  <li class="mdl-menu__item">Pricing</li>
+		  <li class="mdl-menu__item">Contact</li>
+		  <li class="mdl-menu__item">Login</li>
+		</ul>
+    </div>
+  </header>
+</div>
+<div class="heroContainer">
+	<div class="heroContainer--overlay"></div>
+	<div class="heroContainer__calloutArea">
+		<h1>WE MAKE CONNECTING YOUR STUDENTS WITH THEIR PEER TUTORS EASY</h1>
+		<button class="btn">How it Works</button>
+	</div>
+	<div class="heroContainer__loginArea">
+		<h4>ALREADY A<br>STUDENT OR TUTOR?</h4>
+		<i class="material-icons loginArea__icon">school</i>
+		<br>
+		<form>
+			<label>
+				<span class="smallText">Select Your School</span><br>
+				<select name="schoolSelect" id="homeSchoolSelect">
+					<option value="Lake Forrest High School">Lake Forrest High School</option>
+					<option value="Lake Forrest High School">North Central High School</option>
+				</select>
+			</label><br>
+			<input type="text" placeholder="username"><br>
+			<input type="password" placeholder="password"><br>
+			<button class="btn" type="submit">Login</button>
+		</form>
+	</div>
+</div>
+<div class="threeContentAreasContainer">
+	<h2>WHY PEACHCORE?</h2>
+	<div class="content-grid mdl-grid">
+	  <div class="mdl-cell">
+	    <i class="material-icons">web</i>
+	    <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, magni quos cupiditate a veri.</h6>
+	  </div>
+	  <div class="mdl-cell">
+	    <i class="material-icons">supervisor_account</i>
+	    <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio pariatur at error fugia.</h6>
+	  </div>
+	  <div class="mdl-cell">
+	    <i class="material-icons">timer</i>
+	    <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim, molestias et rerum alias ea earum.</h6>
+	  </div>
+	</div>
+	<button class="btn btn--pricing">VIEW PRICING PLANS</button>
+</div>
+<div class="tourSectionContainer">
+	<div class="content-grid mdl-grid">
+	  <div class="mdl-cell">
+	    <h2>SEE OUR SOFTWARE IN ACTION!</h2>
+	    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste dolor deserunt nam vero quasi rerum debitis eaque optio ullam, culpa sint, odit quos. Doloribus velit perferendis praesentium, voluptatum explicabo quas. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugit iste, dolores porro maxime rem.</p>
+	    <button class="btn">TAKE THE TOUR</button>
+	  </div>
+	  <div class="mdl-cell">
+	    <div class="graySquare"></div>
+	  </div>
+	</div>
+</div>
+
+<footer>
+	<div class="content-grid mdl-grid">
+	  <div class="mdl-cell">
+	  	<h4>INTERNAL LINKS</h4>
+	  	<ul>
+	  		<li>
+	  			<a href="#">Link 1</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 2</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 3</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 4</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 5</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 6</a>
+	  		</li>
+	  	</ul>
+	  </div>
+	  <div class="mdl-cell">
+	    <h4>EXTERNAL LINKS</h4>
+	  	<ul>
+	  		<li>
+	  			<a href="#">Link 1</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 2</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 3</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 4</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 5</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 6</a>
+	  		</li>
+	  	</ul>
+	  </div>
+	  <div class="mdl-cell">
+	    <h4>SOCIAL LINKS</h4>
+	  	<ul>
+	  		<li>
+	  			<a href="#">Link 1</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 2</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 3</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 4</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 5</a>
+	  		</li>
+	  		<li>
+	  			<a href="#">Link 6</a>
+	  		</li>
+	  	</ul>
+	  </div>
+	</div>
+</footer>
+
+</body>
+</html>
