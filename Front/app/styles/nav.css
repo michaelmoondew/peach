@@ -1,0 +1,50 @@
+/* MAIN NAV */
+header{
+	height: 100px;
+	background-color: #56203D;
+}
+
+.mdl-layout-title{
+	margin-top: 36px;
+	font-weight: bold;
+}
+
+.mdl-layout__header-row .mdl-navigation__link{
+	text-transform: uppercase;
+	font-size: 14px;
+	letter-spacing: .05rem; 
+	font-weight: 400;
+	margin-top: 36px;
+	color: #F1F1F1;
+}
+
+.navLogoContainer{
+	margin-top: 20px;
+}
+
+.navLogo{
+	width: 175px;
+}
+
+#navMobileDropdown{
+	display: none;
+}
+
+#navSettingDropdown, #navMobileDropdown{
+	position: relative;
+	top: 16px;
+}
+
+#navSettingDropdown i, #navMobileDropdown i{
+	color: #F1F1F1;
+}
+
+@media screen and (max-width: 850px){
+	.mdl-layout__header-row .mdl-navigation__link, #navSettingDropdown{
+		display: none;
+	}
+
+	#navMobileDropdown{
+		display: block;
+	}
+}
