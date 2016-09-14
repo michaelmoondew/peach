@@ -30,5 +30,30 @@
   padding-left:16px;
   position:absolute;
   bottom:0;
-  padding-bottom:12px
+  padding-bottom:12px;
+  min-width:200px;
 }
+
+.icon-bar button {
+  float:left;
+}
+
+.icon-bar .time {
+  float:right;
+  height:32px;
+  line-height:32px;
+  font-weight:700;
+}
+
+.icon-bar .time div {
+  float:left;
+}
+
+.icon-timer {
+  font-size:16px;
+  line-height:32px;
+  margin-right:5px;
+  font-weight:700;
+}
+
+
