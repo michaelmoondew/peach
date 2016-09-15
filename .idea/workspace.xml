@@ -2,36 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9ffb3d92-20f6-4cb7-9129-6f16298b1213" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Angular/material-start" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/.bowerrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/.travis.yml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/app.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/app.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/components/version/interpolate-filter.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/components/version/interpolate-filter_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/components/version/version-directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/components/version/version-directive_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/components/version/version.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/components/version/version_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/index-async.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/view1/view1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/view1/view1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/view1/view1_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/view2/view2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/view2/view2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/app/view2/view2_test.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/bower.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/e2e-tests/protractor.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/e2e-tests/scenarios.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/karma.conf.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Angular/package.json" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <list id="b0c52285-b2a6-482e-b1fb-bdb381f672c8" name="Failed commit: Default" comment="new angular material install with base project">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Angular/material-start" afterPath="$PROJECT_DIR$/Angular/material-start" />
     </list>
     <ignored path="peach.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -255,15 +229,23 @@
       <workItem from="1473919449689" duration="78000" />
       <workItem from="1473919530686" duration="978000" />
       <workItem from="1473920550780" duration="993000" />
-      <workItem from="1473921577918" duration="337000" />
+      <workItem from="1473921577918" duration="769000" />
     </task>
+    <task id="LOCAL-00001" summary="new angular material install with base project">
+      <created>1473921930551</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1473921930551</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11660000" />
+    <option name="totallyTimeSpent" value="12092000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="2576" height="1416" extended-state="6" />
+    <frame x="-8" y="-8" width="2576" height="1416" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13398437" sideWeight="0.5959781" order="0" side_tool="false" content_ui="combo" />
@@ -295,6 +277,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new angular material install with base project" />
+    <option name="LAST_COMMIT_MESSAGE" value="new angular material install with base project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
